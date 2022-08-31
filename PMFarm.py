@@ -457,7 +457,7 @@ class Pioneer:
                                                             channel_7, channel_8)
 
 
-#Pyqt5
+#Script
 def run(width):
     right_left = float(0)
     forward_back = float(1)
@@ -504,7 +504,7 @@ def run(width):
 
 
 
-# Script
+# PyQt5
 def excepthook(a, b, c):
     return sys.excepthook(a, b, c)
 
